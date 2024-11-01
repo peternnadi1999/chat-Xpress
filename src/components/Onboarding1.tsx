@@ -6,7 +6,7 @@ import React from "react";
 const Onboarding1 = ({ prevStep, nextStep }: any) => {
 	return (
 		<>
-			<div className="md:3/4 w-11/12 font-plus">
+			<div className="md:3/4 w-11/12 min-h-screen mt-32 font-plus">
 				<button
 					onClick={prevStep}
 					className="flex border md:mb-0 mb-6 rounded-xl p-1  w-32 items-start gap-2 text-[#646465]"

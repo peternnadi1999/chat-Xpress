@@ -7,8 +7,8 @@ import { ArrowLeft } from "lucide-react";
 
 const ForgetPassword = () => {
 	return (
-		<div className="flex min-h-screen bg-gray-50 font-plus">
-			<div className="flex-none w-1/5 relative overflow-x-hidden hidden bg-gradient-to-br from-[#131314] to-[#74747A] m-3 rounded-xl text-white md:flex p-6">
+		<div className="grid grid-cols-5 min-h-screen bg-gray-50 font-plus">
+			<div className="col-span-1 lg:flex  md:hidden hidden relative overflow-x-hidden  bg-gradient-to-br from-[#131314] to-[#74747A] m-3 rounded-xl text-white p-6">
 				<div className="">
 					<div className="mt-8 absolute bottom-0 -right-44 ">
 						<Image
@@ -20,7 +20,7 @@ const ForgetPassword = () => {
 				</div>
 			</div>
 
-			<div className="flex-1 flex items-center justify-center p-8">
+			<div className="lg:col-span-4 md:col-span-5 col-span-5 flex items-center justify-center p-8">
 				<div className=" my-10  max-w-sm justify-center items-center p-5 bg-white rounded-lg shadow-lg">
 					<div className="p-3 border rounded-lg">
 						<div className="flex justify-center mb-6 bg-[#EEEEEE] w-10 h-10 items-center p-1 rounded-md m-auto">
@@ -65,7 +65,7 @@ const ForgetPassword = () => {
 						href="/login"
 						className="text-[#F17550] flex items-center gap-2 hover:underline"
 					>
-						<ArrowLeft className="h-3 w-6 mr-2" /> Return to login
+						<ArrowLeft className="h-3 w-6" /> Return to login
 					</Link>
 				</p>
 			</div>

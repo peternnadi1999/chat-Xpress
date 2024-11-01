@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Logo from '/public/image/Logo.png'
 import Link from 'next/link';
+import Icon from '/public/image/icon.svg';
 
 const LoginForm = () => {
   return (
@@ -62,11 +63,7 @@ const LoginForm = () => {
             type="button"
             className="w-full py-2 mt-2 bg-[#F0F1F3] text-gray-700 font-medium rounded-md flex items-center justify-center hover:bg-gray-200 focus:outline-none"
           >
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png"
-              alt="Google logo"
-              className="w-5 h-5 mr-2"
-            />
+            <Image src={Icon} alt="Google logo" className="w-7 h-7 mr-2" />
             Sign in with Google
           </button>
         </form>

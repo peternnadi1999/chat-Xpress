@@ -5,6 +5,7 @@ import Frame from '/public/image/Frame.png';
 import Logo from '/public/image/Logo.png'
 import React from 'react';
 import Link from 'next/link';
+import Icon from '/public/image/icon.svg';
 
 const SignupPage = () => {
   const router = useRouter();
@@ -15,31 +16,31 @@ const SignupPage = () => {
   }
   
   return (
-    <div className="flex min-h-screen bg-gray-50 font-plus">
+    <div className="grid grid-cols-5 min-h-screen bg-gray-50 font-plus">
      
-      <div className="flex-1 hidden relative bg-gradient-to-br from-[#131314] to-[#74747A] m-3 rounded-xl text-white md:flex p-6">
+      <div className="col-span-2 lg:flex  md:hidden hidden relative bg-gradient-to-br from-[#131314] to-[#74747A] m-3 rounded-xl text-white p-6">
         <div className="">
           <div className='flex items-center  pb-16' >
             <Image src={Logo} alt='ChatXpress' className='h-14 w-20 '/>
             <span className='font-bold text-xl ml-2'>ChatXpress</span>
           </div>
-          <h1 className="text-5xl w-3/4  font-normal mb-4"> <span className='text-[#F17550] font-bold'>The Future </span> of Customer Service</h1>
+          <h1 className="text-3xl w-3/4  font-normal mb-4"> <span className='text-[#F17550] font-bold'>The Future </span> of Customer Service</h1>
           <p className="text-base font-medium w-3/4 mb-6">
             Start delivering exceptional customer experiences with ChatXpress today!
           </p>
           
-          <div className="mt-8 absolute bottom-0 -right-40">
+          <div className="mt-8 absolute flex justify-end bottom-0 md:right-0 right-0">
             <Image 
               src={Frame} 
               alt="Decorative Graphic"
-              className=" w-3/5 object-cover rounded-lg"
+              className=" w-3/4  object-cover rounded-lg"
             />
           </div>
         </div>
       </div>
 
      
-      <div className="flex-1 flex items-center justify-center md:p-8">
+      <div className="lg:col-span-3 md:col-span-5 col-span-5 flex items-center justify-center md:p-8">
         <div className="w-full md:max-w-md md:p-8 p-4 rounded-lg">
           <h2 className="text-3xl font-normal text-[#2D2D2D] text-center mb-2">Create your account</h2>
           <p className="text-center text-sm font-normal text-gray-600 mb-6">Get started with zero costs.</p>
@@ -101,7 +102,7 @@ const SignupPage = () => {
               type="button"
               className="w-full py-2 mt-2 text-sm bg-[#F0F1F3] text-gray-700 font-medium rounded-md flex items-center justify-center hover:bg-gray-200 focus:outline-none"
             >
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" alt="Google logo" className="w-5 h-5 mr-2" />
+              <Image src={Icon} alt="Google logo" className="w-8 h-8 mr-2" />
               Sign up with Google
             </button>
 
