@@ -41,7 +41,7 @@ const SignupPage = () => {
      
       <div className="flex-1 flex items-center justify-center md:p-8">
         <div className="w-full md:max-w-md md:p-8 p-4 rounded-lg">
-          <h2 className="text-3xl font-normal text-center mb-2">Create your account</h2>
+          <h2 className="text-3xl font-normal text-[#2D2D2D] text-center mb-2">Create your account</h2>
           <p className="text-center text-sm font-normal text-gray-600 mb-6">Get started with zero costs.</p>
 
           <form className="space-y-4">

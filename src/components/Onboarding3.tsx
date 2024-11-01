@@ -21,7 +21,7 @@ const Onboarding3 = ({ prevStep }: any) => {
 	};
 
 	return (
-		<div className="w-3/4 min-h-screen mt-32 mb-10 font-plus">
+		<div className="md:3/4 w-11/12 min-h-screen mt-32 mb-10 font-plus">
 			<button
 				onClick={prevStep}
 				className="flex border md:mb-0 mb-6 rounded-xl p-1  w-32 items-start gap-2 text-[#646465]"
@@ -34,7 +34,7 @@ const Onboarding3 = ({ prevStep }: any) => {
 						<Image src={Logo} alt="ChatXpress" className="h-5 w-9 " />
 					</div>
 
-					<h2 className="text-xl text-center font-normal mb-2">
+					<h2 className="text-xl text-[#2D2D2D] text-center font-normal mb-2">
 						What do you need ChatXpress to help you with?
 					</h2>
 					<p className="text-gray-600 font-normal text-center text-sm mb-6">

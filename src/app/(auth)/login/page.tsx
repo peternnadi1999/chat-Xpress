@@ -13,7 +13,7 @@ const LoginForm = () => {
         </div>
 
        
-        <h2 className="text-xl font-normal text-center mb-1">Welcome Back!</h2>
+        <h2 className="text-xl font-normal text-[#2D2D2D] text-center mb-1">Welcome Back!</h2>
         <p className="text-center font-normal  text-sm text-gray-600 mb-6">Sign in to your account to continue.</p>
 
         <form className="space-y-4">

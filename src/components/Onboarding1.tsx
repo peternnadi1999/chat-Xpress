@@ -6,7 +6,7 @@ import React from "react";
 const Onboarding1 = ({ prevStep, nextStep }: any) => {
 	return (
 		<>
-			<div className="w-3/4 afont-plus">
+			<div className="md:3/4 w-11/12 font-plus">
 				<button
 					onClick={prevStep}
 					className="flex border md:mb-0 mb-6 rounded-xl p-1  w-32 items-start gap-2 text-[#646465]"
@@ -19,7 +19,7 @@ const Onboarding1 = ({ prevStep, nextStep }: any) => {
 							<Image src={Logo} alt="ChatXpress" className="h-5 w-9 " />
 						</div>
 
-						<h2 className="text-xl font-normal text-center mb-1">
+						<h2 className="text-xl text-[#2D2D2D] font-normal text-center mb-1">
 							Let’s get to know you
 						</h2>
 						<p className="text-center text-sm font-normal text-gray-600 mb-6">

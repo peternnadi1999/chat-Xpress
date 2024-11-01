@@ -26,7 +26,7 @@ const ResetPassword = () => {
 						<div className="flex justify-center mb-6 bg-[#EEEEEE] w-10 h-10 items-center p-1 rounded-md m-auto">
 							<Image src={Logo} alt="ChatXpress" className="h-5 w-9 " />
 						</div>
-						<h2 className="text-xl font-normal text-center mb-2">
+						<h2 className="text-xl font-normal text-[#2D2D2D] text-center mb-2">
 							Reset your password
 						</h2>
 						<p className="text-center font-normal text-sm text-gray-600 mb-6">
