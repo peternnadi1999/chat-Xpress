@@ -12,10 +12,10 @@ const Onboarding3 = ({ prevStep }: any) => {
 		{ id: 3, label: "Lorem ipsum whatever goes here", icon: "📋" },
 	];
 
-	const toggleOption = (id) => {
-		setSelectedOptions((prev) =>
+	const toggleOption = (id:any) => {
+		setSelectedOptions((prev:any) =>
 			prev.includes(id)
-				? prev.filter((optionId) => optionId !== id)
+				? prev.filter((optionId:any) => optionId !== id)
 				: [...prev, id],
 		);
 	};
