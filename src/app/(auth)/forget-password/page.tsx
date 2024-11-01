@@ -7,7 +7,7 @@ import { ArrowLeft } from "lucide-react";
 
 const ForgetPassword = () => {
 	return (
-		<div className="flex min-h-screen bg-gray-50">
+		<div className="flex min-h-screen bg-gray-50 font-plus">
 			<div className="flex-none w-1/5 relative overflow-x-hidden hidden bg-gradient-to-br from-[#131314] to-[#74747A] m-3 rounded-xl text-white md:flex p-6">
 				<div className="">
 					<div className="mt-8 absolute bottom-0 -right-44 ">
@@ -26,18 +26,18 @@ const ForgetPassword = () => {
 						<div className="flex justify-center mb-6 bg-[#EEEEEE] w-10 h-10 items-center p-1 rounded-md m-auto">
 							<Image src={Logo} alt="ChatXpress" className="h-5 w-9 " />
 						</div>
-						<h2 className="text-xl font-medium text-center mb-2">
+						<h2 className="text-xl font-normal text-center mb-2">
 							Forgot password?
 						</h2>
-						<p className="text-center text-sm text-gray-600 mb-6">
+						<p className="text-center font-normal text-sm text-gray-600 mb-6">
 							We’ve got you covered. Just provide your email address and we’ll
 							send a reset link to you.
 						</p>
 
 						<form className="space-y-4">
-							<div>
+							<div className="space-y-3">
 								<label
-									className="block text-sm font-semibold text-gray-700"
+									className="block text-sm font-medium text-gray-700"
 									htmlFor="email"
 								>
 									Email*
@@ -52,7 +52,7 @@ const ForgetPassword = () => {
 
 							<button
 								type="submit"
-								className="w-full py-2 mt-4 bg-black text-white font-semibold rounded-md hover:bg-gray-800 focus:outline-none"
+								className="w-full text-sm py-2 mt-4 bg-black text-white font-medium rounded-md hover:bg-gray-800 focus:outline-none"
 							>
 								Send reset link
 							</button>

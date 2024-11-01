@@ -6,16 +6,16 @@ import Link from 'next/link';
 
 const SignupPage = () => {
   return (
-    <div className="flex min-h-screen bg-gray-50">
+    <div className="flex min-h-screen bg-gray-50 font-plus">
      
-      <div className="flex-3 hidden relative bg-gradient-to-br from-[#131314] to-[#74747A] m-3 rounded-xl text-white md:flex p-6">
+      <div className="flex-1 hidden relative bg-gradient-to-br from-[#131314] to-[#74747A] m-3 rounded-xl text-white md:flex p-6">
         <div className="">
           <div className='flex items-center  pb-16' >
             <Image src={Logo} alt='ChatXpress' className='h-14 w-20 '/>
-            <span className='font-semibold text-2xl ml-2'>ChatXpress</span>
+            <span className='font-bold text-xl ml-2'>ChatXpress</span>
           </div>
-          <h1 className="text-4xl w-3/4  font-medium mb-4"> <span className='text-[#F17550] font-semibold'>The Future </span> of Customer Service</h1>
-          <p className="text-base w-3/4 mb-6">
+          <h1 className="text-5xl w-3/4  font-normal mb-4"> <span className='text-[#F17550] font-bold'>The Future </span> of Customer Service</h1>
+          <p className="text-base font-medium w-3/4 mb-6">
             Start delivering exceptional customer experiences with ChatXpress today!
           </p>
           
@@ -30,14 +30,14 @@ const SignupPage = () => {
       </div>
 
      
-      <div className="flex-1 flex items-center justify-center p-8">
-        <div className="w-full max-w-md p-8 rounded-lg">
-          <h2 className="text-2xl font-semibold text-center mb-2">Create your account</h2>
-          <p className="text-center text-gray-600 mb-6">Get started with zero costs.</p>
+      <div className="flex-1 flex items-center justify-center md:p-8">
+        <div className="w-full md:max-w-md md:p-8 p-4 rounded-lg">
+          <h2 className="text-3xl font-normal text-center mb-2">Create your account</h2>
+          <p className="text-center text-sm font-normal text-gray-600 mb-6">Get started with zero costs.</p>
 
           <form className="space-y-4">
-            <div>
-              <label className="block text-sm font-semibold text-gray-700" htmlFor="email">
+            <div className='space-y-3'>
+              <label className="block text-sm font-medium text-gray-700" htmlFor="email">
                 Email*
               </label>
               <input
@@ -48,8 +48,8 @@ const SignupPage = () => {
               />
             </div>
 
-            <div>
-              <label className="block text-sm font-semibold text-gray-700" htmlFor="password">
+            <div className='space-y-3'>
+              <label className="block text-sm font-medium text-gray-700" htmlFor="password">
                 Password*
               </label>
               <input
@@ -60,8 +60,8 @@ const SignupPage = () => {
               />
             </div>
 
-            <div>
-              <label className="block text-sm font-semibold text-gray-700" htmlFor="website">
+            <div className='space-y-3'>
+              <label className="block text-sm font-medium text-gray-700" htmlFor="website">
                 Website link*
               </label>
               <input
@@ -80,7 +80,8 @@ const SignupPage = () => {
 
             <button
               type="submit"
-              className="w-full py-2 mt-4 bg-black text-white font-medium rounded-md hover:bg-gray-800 focus:outline-none"
+              
+              className="w-full text-sm py-2 mt-4 bg-black text-white font-medium rounded-md hover:bg-gray-800 focus:outline-none"
             >
               Create account
             </button>

@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const LoginForm = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50">
+    <div className="flex flex-col items-center font-plus justify-center min-h-screen bg-gray-50">
       <div className="w-full my-10 max-w-sm p-5 bg-white rounded-lg shadow-lg">
        <div className='p-3 border rounded-lg'>
         <div className="flex justify-center mb-6">
@@ -13,12 +13,12 @@ const LoginForm = () => {
         </div>
 
        
-        <h2 className="text-xl font-semibold text-center mb-1">Welcome Back!</h2>
-        <p className="text-center text-sm text-gray-600 mb-6">Sign in to your account to continue.</p>
+        <h2 className="text-xl font-normal text-center mb-1">Welcome Back!</h2>
+        <p className="text-center font-normal  text-sm text-gray-600 mb-6">Sign in to your account to continue.</p>
 
         <form className="space-y-4">
-          <div>
-            <label className="block text-sm font-semibold text-gray-700" htmlFor="email">
+          <div className='space-y-3'>
+            <label className="block text-sm font-medium text-gray-700" htmlFor="email">
               Email*
             </label>
             <input
@@ -30,8 +30,8 @@ const LoginForm = () => {
           </div>
 
           
-          <div>
-            <label className="block text-sm font-semibold text-gray-700" htmlFor="password">
+          <div className='space-y-3'>
+            <label className="block text-sm font-medium text-gray-700" htmlFor="password">
               Password*
             </label>
             <div className="flex ">
@@ -49,7 +49,7 @@ const LoginForm = () => {
 
           <button
             type="submit"
-            className="w-full py-2 mt-4 bg-black font-semibold text-white rounded-md hover:bg-gray-800 focus:outline-none"
+            className="w-full text-sm py-2 mt-4 bg-black font-medium text-white rounded-md hover:bg-gray-800 focus:outline-none"
           >
             Log in
           </button>
