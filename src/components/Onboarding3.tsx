@@ -4,7 +4,7 @@ import Logo from "/public/image/Logo.png";
 import React, { useState } from "react";
 
 const Onboarding3 = ({ prevStep }: any) => {
-	const [selectedOptions, setSelectedOptions] = useState([]);
+	const [selectedOptions, setSelectedOptions] = useState<number[]>([]);
 
 	const options = [
 		{ id: 1, label: "Live chat support", icon: "💬" },
