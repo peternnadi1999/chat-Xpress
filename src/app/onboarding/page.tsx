@@ -34,7 +34,8 @@ const Onboarding = () => {
 
 				{step === 1 && (
                     <>
-			<div className=" w-11/12 min-h-screen mt-32  bg-gradient-to-r from-[#FFFFFF] to-[#F7F8FA] p-3 rounded-lg shadow-lg  max-w-md mx-auto">
+					<div className="min-h-screen mt-32">
+			<div className=" w-11/12   bg-gradient-to-r from-[#FFFFFF] to-[#F7F8FA] p-3 rounded-lg shadow-lg  max-w-md mx-auto">
 						<div className="p-3 border text-center rounded-lg">
 							<div className="flex justify-center mb-6 bg-[#EEEEEE] w-10 h-10 items-center p-1 rounded-md m-auto">
 								<Image src={Logo} alt="ChatXpress" className="h-5 w-9 " />
@@ -57,6 +58,7 @@ const Onboarding = () => {
 							</div>
 						</div>
                         </div>
+						</div>
 					</>
 				)}
 

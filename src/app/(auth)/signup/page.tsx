@@ -1,3 +1,5 @@
+"use client"
+import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import Frame from '/public/image/Frame.png';
 import Logo from '/public/image/Logo.png'
@@ -5,6 +7,13 @@ import React from 'react';
 import Link from 'next/link';
 
 const SignupPage = () => {
+  const router = useRouter();
+
+  const handleCreatedAccount =(e:any)=>{
+    e.preventDefault();
+    router.push('/onboarding');
+  }
+  
   return (
     <div className="flex min-h-screen bg-gray-50 font-plus">
      
@@ -80,7 +89,7 @@ const SignupPage = () => {
 
             <button
               type="submit"
-              
+              onClick={handleCreatedAccount}
               className="w-full text-sm py-2 mt-4 bg-black text-white font-medium rounded-md hover:bg-gray-800 focus:outline-none"
             >
               Create account
