@@ -38,24 +38,22 @@ const Onboarding1 = ({ prevStep, nextStep }: any) => {
 									type="text"
 									id="name"
 									placeholder="Clement B"
-									className="mt-1 px-4 py-2 w-full bg-[#F0F1F3] focus:outline-none focus:ring-1 focus:ring-[#F17550] rounded-md outline-none"
+									className="mt-1 px-4 text-black  py-2 w-full bg-[#F0F1F3] focus:outline-none focus:ring-1 focus:ring-[#F17550] rounded-md outline-none"
 								/>
 							</div>
 
 							<div className="space-y-3">
 								<label
 									className="block text-sm font-semibold text-gray-700"
-									htmlFor="password"
+									htmlFor="role"
 								>
 									Your role
 								</label>
 								<div className="flex ">
-									<input
-										type="password"
-										id="password"
-										placeholder="Enter password"
-										className="mt-1 px-4 py-2 w-full border bg-[#F0F1F3] focus:outline-none focus:ring-1 focus:ring-[#F17550] rounded-md outline-none"
-									/>
+									<select name="role" className="mt-1 px-4 text-black  py-2 w-full border bg-[#F0F1F3] focus:outline-none focus:ring-1 focus:ring-[#F17550] rounded-md outline-none" id="role">
+										<option value="">Select role</option>
+									</select>
+									
 								</div>
 							</div>
                             <div className="mb-5">

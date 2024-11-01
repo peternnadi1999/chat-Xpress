@@ -25,7 +25,7 @@ const LoginForm = () => {
               type="email"
               id="email"
               placeholder="Enter email address"
-              className="mt-1 px-4 py-2 w-full bg-[#F0F1F3] focus:outline-none focus:ring-1 focus:ring-[#F17550] rounded-md outline-none"
+              className="mt-1 px-4 py-2 w-full text-black  bg-[#F0F1F3] focus:outline-none focus:ring-1 focus:ring-[#F17550] rounded-md outline-none"
             />
           </div>
 
@@ -39,7 +39,7 @@ const LoginForm = () => {
                 type="password"
                 id="password"
                 placeholder="Enter password"
-                className="mt-1 px-4 py-2 w-full border bg-[#F0F1F3] focus:outline-none focus:ring-1 focus:ring-[#F17550] rounded-md outline-none"
+                className="mt-1 px-4 py-2 text-black  w-full border bg-[#F0F1F3] focus:outline-none focus:ring-1 focus:ring-[#F17550] rounded-md outline-none"
               />
             </div>
               <Link href="/forget-password" className="text-sm text-[#F17550] hover:underline flex justify-end">

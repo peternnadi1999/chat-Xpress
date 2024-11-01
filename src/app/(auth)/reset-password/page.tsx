@@ -46,7 +46,7 @@ const ResetPassword = () => {
 									<input
 										type="password"
 										placeholder="Enter password"
-										className="mt-1 px-4 py-2 bg-[#F0F1F3] w-full focus:outline-none focus:ring-1 focus:ring-[#F17550]  rounded-md outline-none"
+										className="mt-1 px-4 py-2 text-black  bg-[#F0F1F3] w-full focus:outline-none focus:ring-1 focus:ring-[#F17550]  rounded-md outline-none"
 									/>
 									<button
 										type="button"
@@ -67,7 +67,7 @@ const ResetPassword = () => {
 									<input
 										type="password"
 										placeholder="Enter password"
-										className="mt-1 px-4 py-2 bg-[#F0F1F3] w-full focus:outline-none focus:ring-1 focus:ring-[#F17550]  rounded-md outline-none"
+										className="mt-1 px-4 py-2 text-black  bg-[#F0F1F3] w-full focus:outline-none focus:ring-1 focus:ring-[#F17550]  rounded-md outline-none"
 									/>
 									<button
 										type="button"

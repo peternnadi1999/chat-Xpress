@@ -53,7 +53,7 @@ const SignupPage = () => {
                 type="email"
                 id="email"
                 placeholder="Enter email address"
-                className="mt-1 px-4 py-2 bg-[#F0F1F3] w-full rounded-md outline-none "
+                className="mt-1 text-black px-4 py-2 bg-[#F0F1F3] w-full rounded-md outline-none "
               />
             </div>
 
@@ -65,7 +65,7 @@ const SignupPage = () => {
                 type="password"
                 id="password"
                 placeholder="Enter password"
-                className="mt-1 px-4 py-2 w-full bg-[#F0F1F3] rounded-md outline-none"
+                className="mt-1 px-4 py-2 text-black  w-full bg-[#F0F1F3] rounded-md outline-none"
               />
             </div>
 
@@ -77,7 +77,7 @@ const SignupPage = () => {
                 type="text"
                 id="website"
                 placeholder="Paste or enter link here"
-                className="mt-1 px-4 py-2 w-full bg-[#F0F1F3] rounded-md outline-none"
+                className="mt-1 px-4 py-2 text-black  w-full bg-[#F0F1F3] rounded-md outline-none"
               />
             </div>
 

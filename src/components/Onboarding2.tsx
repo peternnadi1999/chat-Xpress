@@ -38,7 +38,7 @@ const Onboarding2 = ({ prevStep, nextStep }: any) => {
 									type="text"
 									id="name"
 									placeholder="Finsafe Finance"
-									className="mt-1 px-4 py-2 w-full bg-[#F0F1F3] focus:outline-none focus:ring-1 focus:ring-[#F17550] rounded-md outline-none"
+									className="mt-1 px-4 text-black  py-2 w-full bg-[#F0F1F3] focus:outline-none focus:ring-1 focus:ring-[#F17550] rounded-md outline-none"
 								/>
 							</div>
 
@@ -50,12 +50,9 @@ const Onboarding2 = ({ prevStep, nextStep }: any) => {
 									Industry
 								</label>
 								<div className="flex ">
-									<input
-										type="text"
-										id="Industry"
-										placeholder="Select industry"
-										className="mt-1 px-4 py-2 w-full border bg-[#F0F1F3] focus:outline-none focus:ring-1 focus:ring-[#F17550] rounded-md outline-none"
-									/>
+								<select name="role" className="mt-1 px-4 text-black  py-2 w-full border bg-[#F0F1F3] focus:outline-none focus:ring-1 focus:ring-[#F17550] rounded-md outline-none" id="role">
+										<option value="">Select Industry</option>
+									</select>
 								</div>
 							</div>
 							<div className="space-y-3">
@@ -66,12 +63,9 @@ const Onboarding2 = ({ prevStep, nextStep }: any) => {
 									Company size
 								</label>
 								<div className="flex ">
-									<input
-										type="text"
-										id="size"
-										placeholder="Select size"
-										className="mt-1 px-4 py-2 w-full border bg-[#F0F1F3] focus:outline-none focus:ring-1 focus:ring-[#F17550] rounded-md outline-none"
-									/>
+								<select name="role" className="mt-1 px-4 text-black  py-2 w-full border bg-[#F0F1F3] focus:outline-none focus:ring-1 focus:ring-[#F17550] rounded-md outline-none" id="role">
+										<option value="">Select size</option>
+									</select>
 								</div>
 							</div>
 							<button
