@@ -59,7 +59,7 @@ const Onboarding3 = ({ prevStep }: any) => {
 									className="hidden"
 								/>
 								<span className="text-2xl bg-white p-2 rounded-xl mr-4">{option.icon}</span>
-								<span className="flex-grow text-left">{option.label}</span>
+								<span className="flex-grow text-[#2D2D2D] text-left">{option.label}</span>
 								<div
 									className={`w-5 h-5 border rounded ${
 										selectedOptions.includes(option.id)
